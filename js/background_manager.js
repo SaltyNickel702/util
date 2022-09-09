@@ -17,10 +17,10 @@ background.set = (type,val) => {
     const backgroundEl = document.getElementById('background')
     switch (type) {
         case 'img':
-            backgroundEl.style.backgroundImage = `url('${val}')`;
+            backgroundEl.style.background = `url('${val}')`;
             break;
         case 'color':
-            backgroundEl.style.backgroundColor = `${val}`;
+            backgroundEl.style.background = `${val}`;
             break;
     }
     background.toggle('on');
