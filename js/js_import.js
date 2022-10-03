@@ -15,6 +15,6 @@ js.import = (fileUrl) => {
         link.setAttribute('src',fileUrl);
         head.append(link);
     } else {
-        console.error('File Already Added');
+        console.log('File Already Added');
     }
 }
