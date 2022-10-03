@@ -1,7 +1,7 @@
-if (typeof js === 'undefined') {
-    js = {};
+if (typeof javascript === 'undefined') {
+    javascript = {};
 }
-js.import = (fileUrl) => {
+javascript.import = (fileUrl) => {
     var importerAdded = false;
     for (let i = 0; i < document.getElementsByTagName('script').length; i++) {
         var doc = document.getElementsByTagName('script')[i];
