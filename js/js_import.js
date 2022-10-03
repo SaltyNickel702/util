@@ -1,4 +1,4 @@
-if (!js) {
+if (typeof js === 'undefined') {
   const js = {};
 }
 js.import = (fileUrl) => {
