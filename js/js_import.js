@@ -1,6 +1,4 @@
-if (typeof js === 'undefined') {
-  const js = {};
-}
+const js = {};
 js.import = (fileUrl) => {
     const head = document.head;
     const link = document.createElement('script');
